@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shwetank's</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-chevron-up"></i></button>
+
+    <nav>
+        <ul class="topnav">
+            <li><a class="active" href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#sec2">Projects</a></li>
+            <li class="right"><a href="#contact">Contact me</a></li>
+      </ul>  
+    </nav>
+
+
+    <section id="sec1">
+        <h3>Shwetank mishra.</h3>
+        <div>
+            <p>oh,hi. <br>scroll down :p</p>
+        </div>
+    </section>
+
+    <div class="txt">
+        <h5 data-text="hello x_x">hello x_x</h5>
+    </div>
+<br>
+<br>
+<br>
+
+   
+    <section id="about">
+     <p></p> 
+    </section>
+    
+    <div id="skills">
+        <div class="box" style="width: 100%;">
+            <div class="likes">
+                <h2>--> What I like doing? </h2> 
+                    <ul>
+                        <li>Eat sleep Game/Code/Develop repeat ®</li>
+                    </ul>  
+            </div>  
+            
+            <div class="skills"> 
+                <h2>-->  My Skills!? ._.  </h2>
+                    <ul>
+                        <li>C++, Python, DSA using both of these</li>
+                        <li>Full Stack development using React and Django</li>
+                        <li>Database- MySQL, MongoDB</li>
+                    </ul>  
+            </div>
+        </div>
+    </div>
+
+    <section id="sec2"> 
+        <h2>List of projects made by me-<br></h2>
+            <p>Library Management System </p><br> 
+            <p>The Restaurant Management System: </p><br>
+            <p>Eye-Blinking Test  </p><br>
+            <p>A Personal Website </p><br>
+            <p>Click <a style="color: white;" href="resume/ShwetankMishra_Resume.PDF">here </a>for my resume T_T </p> 
+            <p>Imp Note--> This site is under progress and the projects will be uploaded on github very soon. Thank you for your patience..</p><br>
+    </section>
+
+    <div id="contact">
+            <div class="middle">
+            <p style="font-size:150%;">Connect at:</p>
+            <a class="btn" href="https://www.facebook.com/profile.php?id=100068643733980"target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a class="btn" href="https://www.instagram.com/shwetank00001/?hl=en"target="_blank"><i class="fab fa-instagram"></i></a>
+            <a class="btn" href="https://steamcommunity.com/id/Shwetank99/"target="_blank"><i class="fab fa-steam"></i></a>
+            <a class="btn" href="https://www.linkedin.com/in/shwetank-mishra-b0216597/"target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a class="btn" href="https://github.com/shwetank00001"target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+    </div>
+    
+        <script>
+        var mybutton = document.getElementById("myBtn");
+        window.onscroll = function() {scrollFunction()};
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
+</body>
+</html>
